@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --azul:#dbeff9;
+    --azul-oscuro: #6aa5e3; 
+    --letra: 'Montserrat', sans-serif;
+    --azul-parrafo: #2c4674;
+   
+}
+
+.Contenedor {
+    width: 100%;
+    background-color: var(--azul-oscuro);
+}
+
+.Contenedor .content-center{
+   
+        min-width: 320px;
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: center;
+        min-height: 100vh;
+        height: 100vh;
+        position: relative;
+        min-height: 800px;
+        max-height: 1200px;
+        overflow:hidden;
+        background:var(--azul);
+   
+}
+
+.fotodog{
+    background-color: #488db3;
+    width: 100%;
+    position: relative;
+    /* height: 500px; */
+    border-radius: 40px 40px 40px 40px;
+}
+
+.fotodog .atras{
+    position: absolute;
+    width: 90%;
+    top: 30px;
+    right: 0px;
+    left: 0px;
+    margin: 0px auto;
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+}
+
+.perro {
+    /* background-color: red; */
+    height: 500px;
+}
+
+.cajas {
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* .Contenedor .content-superior a{
+   
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-top: ;
+    transition: 0.2s ;
+} */
+
+.cajas .info{
+    background-color: #e0dbd7da;
+    padding: 10px;
+    border-radius: 20px;
+    width: 20%;
+    
+}
+
+.info h2 {
+    font-family: var(--letra);
+    font-size: 1rem;
+    color: var(--azul-parrafo);
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-family: var(--letra);
+    font-size: 0.9rem;
+    color: #8c97aa;
+    font-weight: 500;
+}
+
+.cont-perro{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.cont-perro .info{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  
+}
+
+.cont-perro .info h2{
+    font-family: var(--letra);
+    color: var(--azul-parrafo);
+    font-size: 1.5rem;
+}
+
+.cont-perro .info p{
+    font-family: var(--letra);
+    color: var(--azul-parrafo);
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.cont-perro .precio h2{
+    font-family: var(--letra);
+    color: var(--azul-parrafo);
+    font-size: 1.5rem;
+}
+
+
+.cont-persona {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    width: 85%;
+    margin: 30px auto;
+    place-items: center;
+}
+
+
+.cont-persona .foto{
+    height: 70px;
+    width: 70px;
+    
+}
+
+.persona-info h3{
+    font-family: var(--letra);
+    color: var(--azul-parrafo);
+    font-size: 1.2rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+
+.persona-info p{
+    font-family: var(--letra);
+    color: var(--azul-parrafo);
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 500;
+}
+
+.Llevar {
+    background-color: #58c084;
+    padding: 20px;
+    margin: 50px auto;
+    width: 90%;
+    border-radius: 40px;
+}
+
+.Llevar a {
+
+    text-decoration: none;
+    font-family: var(--letra);
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.2rem;
+}

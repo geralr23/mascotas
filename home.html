@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Tu mejor amigo en casa</title>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body onload="activarmascota('todos')">
+
+    <section class="home-p">
+
+        <div class="content-center">
+            <div class="cont-superior">
+                <div class="buscar">
+                    <a href="index.html"><img src="img/chevron-left.svg" alt=""></a>
+                    <h1>Buscar</h1>
+                </div>
+                <div class="busqueda">
+                    <img src="img/search.svg" alt="">
+                    <input id="buscador" type="text" placeholder="Buscar">
+                </div>
+                <div class="botones">
+                    <button class="btn" identificador="perros" onclick="activarmascota('perros')"><div></div>Perros</button>
+                    <button class="btn" identificador="gatos" onclick="activarmascota('gatos')"><div></div>Gatos</button>
+                    <!-- <button class="btn" identificador="todos" onclick="activarmascota('todos')"><div></div>todos</button> -->
+                </div>
+                <div class="cont-cards">
+
+                    <div class="card perros todos">
+                        <img src="img/ivana.png" alt="Perro1">
+                        <div class="cont-info-card">
+                            <h2>Ivanna</h2>
+                            <h3>Corgui</h3>
+                            <p>$400</p>
+                        </div>
+                    </div>
+                    <div class="card perros todos">
+                        <img src="img/alvan.png" alt="Perro2">
+                        <div class="cont-info-card">
+                            <h2>Alvan</h2>
+                            <h3>Corgui</h3>
+                            <p>$300</p>
+                        </div>
+                    </div>
+
+                    <div class="card perros todos">
+                       <a href="tarjetadog.html"> <img src="img/karsten.png" alt="Perro3">
+                        <div class="cont-info-card">
+                            <h2>Karsten</h2>
+                            <h3>Bulldog</h3>
+                            <p>$200</p>
+                        </div></a>
+                    </div>
+
+                    <div class="card perros todos">
+                        <img src="img/reigner.png" alt="Perro4">
+                        <div class="cont-info-card">
+                            <h2>Reigner</h2>
+                            <h3>Bulldog</h3>
+                            <p>$240</p>
+                        </div>
+                    </div>
+
+                    <div class="card gatos todos">
+                        <img src="img/ariana.png" alt="Gato1">
+                        <div class="cont-info-card">
+                            <h2>Ariana</h2>
+                            <h3>Graycat</h3>
+                            <p>$40</p>
+                        </div>
+                    </div>
+                    <div class="card gatos todos">
+                        <img src="img/remi.png" alt="Gato2">
+                        <div class="cont-info-card">
+                            <h2>Remi</h2>
+                            <h3>Whitecat</h3>
+                            <p>$70</p>
+                        </div>
+                    </div>
+
+                    <div class="card gatos todos">
+                        <a href="tarjetacat.html">
+                        <img src="img/alex-big.png" alt="Gato3">
+                            <div class="cont-info-card">
+                            <h2>Alex</h2>
+                            <h3>Siamese</h3>
+                            <p>$100</p>
+                        </div></a>
+                    </div>
+
+                    <div class="card gatos todos">
+                        <img src="img/zoe.png" alt="Gato4">
+                        <div class="cont-info-card">
+                            <h2>Zoe</h2>
+                            <h3>Persian</h3>
+                            <p>$80</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+    </section>
+
+
+
+
+    <script src="js/home.js"></script>
+</body>
+
+</html>
